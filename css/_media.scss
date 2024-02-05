@@ -1,0 +1,195 @@
+@import "_global.scss";
+@import "_font.scss";
+
+@media only screen and (max-width: 1140px) {
+    .teachers__item {
+        flex: 0 0 25%;
+    }
+}
+
+@media only screen and (max-width: 820px) {
+    .advantages__item {
+        flex-direction: column;
+        img {
+            margin-bottom: 15px;
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero {
+        .hero__courses3d {
+            padding: 130px 0;
+            width: 100%;
+            .hero__title {
+                color: #fff;
+                font-size: 50px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%;
+                margin-bottom: 30px;
+                max-width: 385px;
+            }
+        }
+
+        .hero__imges--ruby {
+            display: none;
+        }
+
+        .hero__imges--cube {
+            display: none;
+        }
+    }
+
+    .teachers__item {
+        min-width: 100%;
+        object-fit: contain;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .header {
+        .nav {
+            .nav__logo {
+                margin-bottom: 31px;
+            }
+            flex-direction: column;
+            justify-content: center;
+            min-height: 133px;
+        }
+    }
+
+    .hero__title {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 585px) {
+    .courses__wrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+    .courses__left {
+        min-width: 100%;
+        margin: 0;
+    }
+    .courses__right {
+        min-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero {
+        .hero__courses3d {
+            width: 100%;
+            min-width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    // <----------------------------advantages----------------------------------->
+    .advantages__top--imes {
+        display: none;
+    }
+
+    .advantages__bottom {
+        flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+    }
+
+    .advantages__item {
+        flex-direction: row;
+    }
+
+    .advantages__bottom-text {
+        max-width: 180px;
+        max-width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        .nav {
+            .nav__list {
+                transform: translateY(-100%);
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                width: 100%;
+                // max-width: 200px;
+                height: 270px;
+                // margin: 0 auto;
+                display: block;
+                text-align: center;
+                padding-top: 40px;
+                background-color: #3f2aff;
+                border-radius: 10px;
+
+                .nav__close {
+                    padding-top: 20px;
+                    display: block;
+                    position: absolute;
+                    top: 2px;
+                    right: 20px;
+                }
+                .nav__item {
+                    margin-bottom: 40px;
+                }
+            }
+
+            .nav__list--open {
+                transform: translateY(0%);
+            }
+
+            .nav__mobile {
+                display: block;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .advantages__hero {
+        max-width: 300px;
+        .advantages__title {
+            font-size: 20px;
+            line-height: 130%;
+        }
+    }
+
+    .advantages__item {
+        .advantages__bottom-text {
+            max-width: 180px;
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .hero {
+        .hero__courses3d {
+            .hero__title {
+                color: #fff;
+                font-size: 30px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 100%;
+                margin-bottom: 30px;
+            }
+
+            .hero__text {
+                font-size: 16px;
+                line-height: 130%;
+            }
+
+            .hero__button {
+                padding: 21px 54px;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: normal;
+            }
+        }
+    }
+}

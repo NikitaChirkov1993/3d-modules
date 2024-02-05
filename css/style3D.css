@@ -1,0 +1,1913 @@
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.header {
+  background-color: #3f2aff;
+  position: fixed;
+  width: 100%;
+  z-index: 50;
+}
+.header .nav {
+  min-height: 80px;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .nav__logo--img {
+  width: 94px;
+  height: 21px;
+}
+.header .nav__list {
+  display: flex;
+  gap: 56px;
+}
+.header .nav__list .nav__close {
+  display: none;
+}
+.header .nav .nav__item {
+  transition: all 0.3s ease-in-out;
+}
+.header .nav .nav__item:hover {
+  background-color: #5546da;
+}
+.header .nav .nav__item:active {
+  background-color: #1cb1df;
+}
+.header .nav__link {
+  font-family: "Roboto";
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.header .nav .nav__mobile {
+  display: none;
+}
+.header .nav .nav__mobile .nav__btn {
+  flex-direction: column;
+  gap: 5px 0;
+}
+.header .nav .nav__mobile .nav__menu--span {
+  width: 40px;
+  border: 1px solid #fff;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 1140px) {
+  .teachers__item {
+    flex: 0 0 25%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .advantages__item {
+    flex-direction: column;
+  }
+  .advantages__item img {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero .hero__courses3d {
+    padding: 130px 0;
+    width: 100%;
+  }
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+    max-width: 385px;
+  }
+  .hero .hero__imges--ruby {
+    display: none;
+  }
+  .hero .hero__imges--cube {
+    display: none;
+  }
+  .teachers__item {
+    min-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .header .nav {
+    flex-direction: column;
+    justify-content: center;
+    min-height: 133px;
+  }
+  .header .nav .nav__logo {
+    margin-bottom: 31px;
+  }
+  .hero__title {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .courses__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .courses__left {
+    min-width: 100%;
+    margin: 0;
+  }
+  .courses__right {
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero .hero__courses3d {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .advantages__top--imes {
+    display: none;
+  }
+  .advantages__bottom {
+    flex-direction: column;
+  }
+  .advantages__item {
+    flex-direction: row;
+  }
+  .advantages__bottom-text {
+    max-width: 180px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header .nav .nav__list {
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 270px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #3f2aff;
+    border-radius: 10px;
+  }
+  .header .nav .nav__list .nav__close {
+    padding-top: 20px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+  }
+  .header .nav .nav__list .nav__item {
+    margin-bottom: 40px;
+  }
+  .header .nav .nav__list--open {
+    transform: translateY(0%);
+  }
+  .header .nav .nav__mobile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .advantages__hero {
+    max-width: 300px;
+  }
+  .advantages__hero .advantages__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .advantages__item .advantages__bottom-text {
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+  }
+  .hero .hero__courses3d .hero__text {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .hero .hero__courses3d .hero__button {
+    padding: 21px 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.hero {
+  background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+  max-height: 620px;
+  margin-bottom: 80px;
+}
+.hero .container {
+  align-items: center;
+  justify-content: space-between;
+}
+.hero .hero__courses3d {
+  margin-right: 32px;
+  padding: 130px 0;
+  width: 40%;
+  min-width: 459px;
+}
+.hero .hero__courses3d .hero__title {
+  color: #fff;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  margin-bottom: 30px;
+}
+.hero .hero__courses3d .hero__text {
+  max-width: 444px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-bottom: 70px;
+}
+.hero .hero__courses3d .hero__button {
+  padding: 24px 75.5px;
+  background-color: #3f2aff;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  transition: all 0.3s ease-in-out 0s;
+}
+.hero .hero__button:hover {
+  background-color: #5546da;
+}
+.hero .hero__button:active {
+  background-color: #1cb1df;
+}
+.hero .hero__imges {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-height: 593px;
+}
+.hero .hero__imges .hero__imges--cube {
+  height: 100%;
+  position: relative;
+}
+.hero .hero__imges .hero__imges--cube .hero__imges--cube--img {
+  padding-top: 15px;
+  padding-bottom: 12px;
+  max-width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow: hidden;
+}
+.hero .hero__imges--ruby {
+  position: absolute;
+  top: 72px;
+  left: -52px;
+  width: 203px;
+  height: 150px;
+  overflow: hidden;
+  transform: rotate(-13.931deg);
+}
+.hero .hero__imges--ruby .hero__imges--ruby--img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 1140px) {
+  .teachers__item {
+    flex: 0 0 25%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .advantages__item {
+    flex-direction: column;
+  }
+  .advantages__item img {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero .hero__courses3d {
+    padding: 130px 0;
+    width: 100%;
+  }
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+    max-width: 385px;
+  }
+  .hero .hero__imges--ruby {
+    display: none;
+  }
+  .hero .hero__imges--cube {
+    display: none;
+  }
+  .teachers__item {
+    min-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .header .nav {
+    flex-direction: column;
+    justify-content: center;
+    min-height: 133px;
+  }
+  .header .nav .nav__logo {
+    margin-bottom: 31px;
+  }
+  .hero__title {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .courses__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .courses__left {
+    min-width: 100%;
+    margin: 0;
+  }
+  .courses__right {
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero .hero__courses3d {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .advantages__top--imes {
+    display: none;
+  }
+  .advantages__bottom {
+    flex-direction: column;
+  }
+  .advantages__item {
+    flex-direction: row;
+  }
+  .advantages__bottom-text {
+    max-width: 180px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header .nav .nav__list {
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 270px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #3f2aff;
+    border-radius: 10px;
+  }
+  .header .nav .nav__list .nav__close {
+    padding-top: 20px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+  }
+  .header .nav .nav__list .nav__item {
+    margin-bottom: 40px;
+  }
+  .header .nav .nav__list--open {
+    transform: translateY(0%);
+  }
+  .header .nav .nav__mobile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .advantages__hero {
+    max-width: 300px;
+  }
+  .advantages__hero .advantages__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .advantages__item .advantages__bottom-text {
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+  }
+  .hero .hero__courses3d .hero__text {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .hero .hero__courses3d .hero__button {
+    padding: 21px 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 1140px) {
+  .teachers__item {
+    flex: 0 0 25%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .advantages__item {
+    flex-direction: column;
+  }
+  .advantages__item img {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero .hero__courses3d {
+    padding: 130px 0;
+    width: 100%;
+  }
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+    max-width: 385px;
+  }
+  .hero .hero__imges--ruby {
+    display: none;
+  }
+  .hero .hero__imges--cube {
+    display: none;
+  }
+  .teachers__item {
+    min-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .header .nav {
+    flex-direction: column;
+    justify-content: center;
+    min-height: 133px;
+  }
+  .header .nav .nav__logo {
+    margin-bottom: 31px;
+  }
+  .hero__title {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .courses__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .courses__left {
+    min-width: 100%;
+    margin: 0;
+  }
+  .courses__right {
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero .hero__courses3d {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .advantages__top--imes {
+    display: none;
+  }
+  .advantages__bottom {
+    flex-direction: column;
+  }
+  .advantages__item {
+    flex-direction: row;
+  }
+  .advantages__bottom-text {
+    max-width: 180px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header .nav .nav__list {
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 270px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #3f2aff;
+    border-radius: 10px;
+  }
+  .header .nav .nav__list .nav__close {
+    padding-top: 20px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+  }
+  .header .nav .nav__list .nav__item {
+    margin-bottom: 40px;
+  }
+  .header .nav .nav__list--open {
+    transform: translateY(0%);
+  }
+  .header .nav .nav__mobile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .advantages__hero {
+    max-width: 300px;
+  }
+  .advantages__hero .advantages__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .advantages__item .advantages__bottom-text {
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+  }
+  .hero .hero__courses3d .hero__text {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .hero .hero__courses3d .hero__button {
+    padding: 21px 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.advantages {
+  min-width: 456px;
+}
+
+.advantages__top {
+  margin-bottom: 30px;
+}
+
+.advantages__top--imes {
+  max-width: 160px;
+  max-height: 142px;
+  max-width: 100%;
+  margin-right: 30px;
+}
+
+.advantages__title {
+  max-width: 380px;
+  margin-bottom: 30px;
+  color: #2e2b44;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.advantages__text {
+  max-width: 585px;
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.advantages__bottom {
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  margin-bottom: 80px;
+}
+
+.advantages__item {
+  align-items: center;
+}
+
+.advantages__bottom-text {
+  max-width: 240px;
+  max-width: 100%;
+  margin-left: 30px;
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 1140px) {
+  .teachers__item {
+    flex: 0 0 25%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .advantages__item {
+    flex-direction: column;
+  }
+  .advantages__item img {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero .hero__courses3d {
+    padding: 130px 0;
+    width: 100%;
+  }
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+    max-width: 385px;
+  }
+  .hero .hero__imges--ruby {
+    display: none;
+  }
+  .hero .hero__imges--cube {
+    display: none;
+  }
+  .teachers__item {
+    min-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .header .nav {
+    flex-direction: column;
+    justify-content: center;
+    min-height: 133px;
+  }
+  .header .nav .nav__logo {
+    margin-bottom: 31px;
+  }
+  .hero__title {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .courses__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .courses__left {
+    min-width: 100%;
+    margin: 0;
+  }
+  .courses__right {
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero .hero__courses3d {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .advantages__top--imes {
+    display: none;
+  }
+  .advantages__bottom {
+    flex-direction: column;
+  }
+  .advantages__item {
+    flex-direction: row;
+  }
+  .advantages__bottom-text {
+    max-width: 180px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header .nav .nav__list {
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 270px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #3f2aff;
+    border-radius: 10px;
+  }
+  .header .nav .nav__list .nav__close {
+    padding-top: 20px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+  }
+  .header .nav .nav__list .nav__item {
+    margin-bottom: 40px;
+  }
+  .header .nav .nav__list--open {
+    transform: translateY(0%);
+  }
+  .header .nav .nav__mobile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .advantages__hero {
+    max-width: 300px;
+  }
+  .advantages__hero .advantages__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .advantages__item .advantages__bottom-text {
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+  }
+  .hero .hero__courses3d .hero__text {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .hero .hero__courses3d .hero__button {
+    padding: 21px 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.teachers {
+  background: #212133;
+  margin-bottom: 80px;
+}
+
+.teachers__title {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.teachers__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-bottom: 80px;
+}
+
+.teachers__item {
+  flex: 0 0 20%;
+}
+.teachers__item picture {
+  max-width: 100%;
+  overflow: hidden;
+}
+.teachers__item picture img {
+  margin-bottom: 30px;
+  border-radius: 22px 22px 0px 0px;
+}
+
+.teachers__name {
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.teachers__text {
+  color: #85859b;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 1140px) {
+  .teachers__item {
+    flex: 0 0 25%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .advantages__item {
+    flex-direction: column;
+  }
+  .advantages__item img {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero .hero__courses3d {
+    padding: 130px 0;
+    width: 100%;
+  }
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+    max-width: 385px;
+  }
+  .hero .hero__imges--ruby {
+    display: none;
+  }
+  .hero .hero__imges--cube {
+    display: none;
+  }
+  .teachers__item {
+    min-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .header .nav {
+    flex-direction: column;
+    justify-content: center;
+    min-height: 133px;
+  }
+  .header .nav .nav__logo {
+    margin-bottom: 31px;
+  }
+  .hero__title {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .courses__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .courses__left {
+    min-width: 100%;
+    margin: 0;
+  }
+  .courses__right {
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero .hero__courses3d {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .advantages__top--imes {
+    display: none;
+  }
+  .advantages__bottom {
+    flex-direction: column;
+  }
+  .advantages__item {
+    flex-direction: row;
+  }
+  .advantages__bottom-text {
+    max-width: 180px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header .nav .nav__list {
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 270px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #3f2aff;
+    border-radius: 10px;
+  }
+  .header .nav .nav__list .nav__close {
+    padding-top: 20px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+  }
+  .header .nav .nav__list .nav__item {
+    margin-bottom: 40px;
+  }
+  .header .nav .nav__list--open {
+    transform: translateY(0%);
+  }
+  .header .nav .nav__mobile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .advantages__hero {
+    max-width: 300px;
+  }
+  .advantages__hero .advantages__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .advantages__item .advantages__bottom-text {
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+  }
+  .hero .hero__courses3d .hero__text {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .hero .hero__courses3d .hero__button {
+    padding: 21px 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.courses {
+  margin-bottom: 80px;
+}
+
+.courses__left {
+  max-width: 50%;
+  margin-right: 30px;
+}
+
+.courses__right {
+  max-width: 50%;
+}
+
+.coourses__item {
+  position: relative;
+  border-radius: 20px;
+  background: #edf0f9;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.courses__title {
+  margin-bottom: 30px;
+  color: #212133;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}
+
+.courses__container {
+  padding: 0 30px;
+}
+
+.courses__imges {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.courses__imges--bg1 {
+  background-color: rgb(247, 215, 113);
+}
+
+.courses__imges--bg2 {
+  background-color: #0e151b;
+}
+
+.courses__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.courses__img--cube {
+  position: absolute;
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  left: 0;
+  bottom: 0;
+}
+
+.courses__clock {
+  align-items: center;
+  position: absolute;
+  -moz-column-gap: 5px;
+       column-gap: 5px;
+  top: 10px;
+  right: 10px;
+}
+
+.courses__click--text {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.courses__subtitle {
+  margin-bottom: 15px;
+  color: #212133;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.courses__text {
+  margin-bottom: 32px;
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.courses__btn {
+  margin-bottom: 30px;
+  padding: 21px 60px;
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 20px;
+  background: #3f2aff;
+  transition: all 0.3s e;
+}
+
+.courses__btn:hover {
+  background-color: #5546da;
+}
+
+.courses__btn:active {
+  background-color: #1cb1df;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 1140px) {
+  .teachers__item {
+    flex: 0 0 25%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .advantages__item {
+    flex-direction: column;
+  }
+  .advantages__item img {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero .hero__courses3d {
+    padding: 130px 0;
+    width: 100%;
+  }
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+    max-width: 385px;
+  }
+  .hero .hero__imges--ruby {
+    display: none;
+  }
+  .hero .hero__imges--cube {
+    display: none;
+  }
+  .teachers__item {
+    min-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .header .nav {
+    flex-direction: column;
+    justify-content: center;
+    min-height: 133px;
+  }
+  .header .nav .nav__logo {
+    margin-bottom: 31px;
+  }
+  .hero__title {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .courses__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .courses__left {
+    min-width: 100%;
+    margin: 0;
+  }
+  .courses__right {
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero .hero__courses3d {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .advantages__top--imes {
+    display: none;
+  }
+  .advantages__bottom {
+    flex-direction: column;
+  }
+  .advantages__item {
+    flex-direction: row;
+  }
+  .advantages__bottom-text {
+    max-width: 180px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header .nav .nav__list {
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 270px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #3f2aff;
+    border-radius: 10px;
+  }
+  .header .nav .nav__list .nav__close {
+    padding-top: 20px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+  }
+  .header .nav .nav__list .nav__item {
+    margin-bottom: 40px;
+  }
+  .header .nav .nav__list--open {
+    transform: translateY(0%);
+  }
+  .header .nav .nav__mobile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .advantages__hero {
+    max-width: 300px;
+  }
+  .advantages__hero .advantages__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .advantages__item .advantages__bottom-text {
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+  }
+  .hero .hero__courses3d .hero__text {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .hero .hero__courses3d .hero__button {
+    padding: 21px 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.social {
+  background: #2e2b44;
+}
+
+.social__list {
+  gap: 0 30px;
+  min-height: 80px;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Roboto", "sans-serif";
+}
+
+.flex {
+  display: flex;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoBold.eot");
+  src: url("../fonts/RobotoBold.eot") format("embedded-opentype"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold.ttf") format("truetype"), url("../fonts/RobotoBold.svg#RobotoBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular.eot") format("embedded-opentype"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular.ttf") format("truetype"), url("../fonts/RobotoRegular.svg#RobotoRegular") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+@media only screen and (max-width: 1140px) {
+  .teachers__item {
+    flex: 0 0 25%;
+  }
+}
+@media only screen and (max-width: 820px) {
+  .advantages__item {
+    flex-direction: column;
+  }
+  .advantages__item img {
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero .hero__courses3d {
+    padding: 130px 0;
+    width: 100%;
+  }
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+    max-width: 385px;
+  }
+  .hero .hero__imges--ruby {
+    display: none;
+  }
+  .hero .hero__imges--cube {
+    display: none;
+  }
+  .teachers__item {
+    min-width: 100%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .header .nav {
+    flex-direction: column;
+    justify-content: center;
+    min-height: 133px;
+  }
+  .header .nav .nav__logo {
+    margin-bottom: 31px;
+  }
+  .hero__title {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 585px) {
+  .courses__wrapper {
+    width: 100%;
+    flex-direction: column;
+  }
+  .courses__left {
+    min-width: 100%;
+    margin: 0;
+  }
+  .courses__right {
+    min-width: 100%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .hero .hero__courses3d {
+    width: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .advantages__top--imes {
+    display: none;
+  }
+  .advantages__bottom {
+    flex-direction: column;
+  }
+  .advantages__item {
+    flex-direction: row;
+  }
+  .advantages__bottom-text {
+    max-width: 180px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .header .nav .nav__list {
+    transform: translateY(-100%);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 270px;
+    display: block;
+    text-align: center;
+    padding-top: 40px;
+    background-color: #3f2aff;
+    border-radius: 10px;
+  }
+  .header .nav .nav__list .nav__close {
+    padding-top: 20px;
+    display: block;
+    position: absolute;
+    top: 2px;
+    right: 20px;
+  }
+  .header .nav .nav__list .nav__item {
+    margin-bottom: 40px;
+  }
+  .header .nav .nav__list--open {
+    transform: translateY(0%);
+  }
+  .header .nav .nav__mobile {
+    display: block;
+  }
+}
+@media only screen and (max-width: 460px) {
+  .advantages__hero {
+    max-width: 300px;
+  }
+  .advantages__hero .advantages__title {
+    font-size: 20px;
+    line-height: 130%;
+  }
+  .advantages__item .advantages__bottom-text {
+    max-width: 180px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .hero .hero__courses3d .hero__title {
+    color: #fff;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 30px;
+  }
+  .hero .hero__courses3d .hero__text {
+    font-size: 16px;
+    line-height: 130%;
+  }
+  .hero .hero__courses3d .hero__button {
+    padding: 21px 54px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+.footer {
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style3D.css.map */

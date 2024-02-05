@@ -1,0 +1,14 @@
+@import "_global.scss";
+@import "_font.scss";
+@import "_media.scss";
+
+.social {
+    background: #2e2b44;
+}
+
+.social__list {
+    gap: 0 30px;
+    min-height: 80px;
+    justify-content: center;
+    align-items: center;
+}

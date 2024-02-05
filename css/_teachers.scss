@@ -1,0 +1,51 @@
+@import "_global.scss";
+@import "_font.scss";
+@import "_media.scss";
+
+.teachers {
+    background: #212133;
+    margin-bottom: 80px;
+}
+
+.teachers__title {
+    color: #fff;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    padding-top: 80px;
+    padding-bottom: $herombpx;
+}
+.teachers__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.teachers__item {
+    flex: 0 0 20%;
+    picture {
+        max-width: 100%;
+        overflow: hidden;
+        img {
+            margin-bottom: 30px;
+            border-radius: 22px 22px 0px 0px;
+        }
+    }
+}
+
+.teachers__name {
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+.teachers__text {
+    color: #85859b;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}

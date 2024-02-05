@@ -1,0 +1,60 @@
+@import "_global.scss";
+
+.header {
+    background-color: $colorblue;
+    position: fixed;
+    width: 100%;
+    z-index: 50;
+
+    .nav {
+        min-height: 80px;
+        justify-content: space-between;
+        align-items: center;
+
+        &__logo--img {
+            width: 94px;
+            height: 21px;
+        }
+
+        &__list {
+            display: flex;
+            gap: 56px;
+
+            .nav__close {
+                display: none;
+            }
+        }
+
+        .nav__item {
+            transition: all 0.3s ease-in-out;
+        }
+
+        .nav__item:hover {
+            background-color: $colorhover;
+        }
+        .nav__item:active {
+            background-color: $coloractive;
+        }
+
+        &__link {
+            font-family: "Roboto";
+            color: #fff;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        .nav__mobile {
+            display: none;
+
+            .nav__btn {
+                flex-direction: column;
+                gap: 5px 0;
+            }
+            .nav__menu--span {
+                width: 40px;
+                border: 1px solid #fff;
+            }
+        }
+    }
+}

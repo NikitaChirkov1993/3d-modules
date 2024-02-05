@@ -1,0 +1,120 @@
+@import "_global.scss";
+@import "_font.scss";
+@import "_media.scss";
+
+.courses {
+    margin-bottom: 80px;
+}
+
+.courses__left {
+    max-width: 50%;
+    margin-right: 30px;
+}
+
+.courses__right {
+    max-width: 50%;
+}
+
+.coourses__item {
+    position: relative;
+    border-radius: 20px;
+    background: #edf0f9;
+    overflow: hidden;
+    margin-bottom: $herombpx;
+}
+
+.courses__title {
+    margin-bottom: $herombpx;
+    color: #212133;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+}
+
+.courses__container {
+    padding: 0 30px;
+}
+
+.courses__imges {
+    position: relative;
+    width: 100%;
+    margin-bottom: $herombpx;
+}
+
+.courses__imges--bg1 {
+    background-color: rgb(247, 215, 113);
+}
+
+.courses__imges--bg2 {
+    background-color: #0e151b;
+}
+
+.courses__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.courses__img--cube {
+    position: absolute;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    left: 0;
+    bottom: 0;
+}
+
+.courses__clock {
+    align-items: center;
+    position: absolute;
+    column-gap: 5px;
+    top: 10px;
+    right: 10px;
+}
+
+.courses__click--text {
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.courses__subtitle {
+    margin-bottom: 15px;
+    color: #212133;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+}
+
+.courses__text {
+    margin-bottom: 32px;
+    color: #666;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.courses__btn {
+    margin-bottom: $herombpx;
+    padding: 21px 60px;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 20px;
+    background: #3f2aff;
+    transition: all 0.3s e;
+}
+
+.courses__btn:hover {
+    background-color: $colorhover;
+}
+.courses__btn:active {
+    background-color: $coloractive;
+}

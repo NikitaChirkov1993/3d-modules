@@ -1,0 +1,96 @@
+@import "_global.scss";
+@import "_font.scss";
+@import "_media.scss";
+
+.hero {
+    background: radial-gradient(44.07% 44.07% at 67.78% 55.93%, #555681 0%, #212133 100%);
+    max-height: 620px;
+    margin-bottom: 80px;
+
+    .container {
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero__courses3d {
+        margin-right: 32px;
+        padding: 130px 0;
+        width: 40%;
+        min-width: 459px;
+
+        .hero__title {
+            color: #fff;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 100%;
+            margin-bottom: 30px;
+        }
+
+        .hero__text {
+            max-width: 444px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 150%;
+            margin-bottom: 70px;
+        }
+
+        .hero__button {
+            padding: 24px 75.5px;
+            background-color: $colorblue;
+            border-radius: 20px;
+            color: #fff;
+            font-size: 18px;
+            font-weight: 700;
+            line-height: normal;
+            transition: all 0.3s ease-in-out 0s;
+        }
+    }
+
+    .hero__button:hover {
+        background-color: $colorhover;
+    }
+
+    .hero__button:active {
+        background-color: $coloractive;
+    }
+
+    .hero__imges {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        min-height: 593px;
+
+        .hero__imges--cube {
+            height: 100%;
+            position: relative;
+
+            .hero__imges--cube--img {
+                padding-top: 15px;
+                padding-bottom: 12px;
+                max-width: 100%;
+                height: 100%;
+                object-fit: contain;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .hero__imges--ruby {
+        position: absolute;
+        top: 72px;
+        left: -52px;
+        width: 203px;
+        height: 150px;
+        overflow: hidden;
+        transform: rotate(-13.931deg);
+
+        .hero__imges--ruby--img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+        }
+    }
+}
